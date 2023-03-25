@@ -1,3 +1,27 @@
 {
-  "type": "module"
+  "type": "module",
+  "name": "cinobo-plus",
+  "description": "Add missing cinobo features.",
+  "version": "0.0.1",
+  "main": "content-script.js",
+  "scripts": {
+    "dev": "web-ext run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackpr/cinobo-plus.git"
+  },
+  "keywords": [
+    "cinobo"
+  ],
+  "author": "Tim aka @blackpr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackpr/cinobo-plus/issues"
+  },
+  "homepage": "https://github.com/blackpr/cinobo-plus#readme",
+  "dependencies": {
+    "web-ext": "^7.6.0"
+  }
 }
