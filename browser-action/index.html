@@ -5,7 +5,52 @@
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <h1 id="myHeading">My cool content</h1>
-    <script type="module" src="script.js"></script>
+    <div class="panel" id="panel">
+      <div class="video-controls">
+        <div class="subs-controls">
+          <span class="label">Subs:</span>
+          <div class="action-buttons">
+            <div class="subs-size">
+              <button
+                data-name="increase-subs-size"
+                title="increase subs size"
+                class="button"
+              >
+                +
+              </button>
+              <button
+                data-name="decrease-subs-size"
+                title="decrease subs size"
+                class="button"
+              >
+                -
+              </button>
+            </div>
+            <div class="subs-position">
+              <button
+                data-name="move-subs-up"
+                title="move subs up"
+                class="button"
+              >
+                △
+              </button>
+              <button
+                data-name="move-subs-down"
+                title="move subp down"
+                class="button"
+              >
+                ▽
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="error-content" class="hidden">
+      <p>Can't use cinobo plus at this web page.</p>
+    </div>
+
+    <script type="module" src="./main-popup.js"></script>
   </body>
 </html>

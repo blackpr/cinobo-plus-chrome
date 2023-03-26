@@ -6,10 +6,11 @@
   "icons": {
     "64": "icons/icon.png"
   },
+  "permissions": ["activeTab"],
   "content_scripts": [
     {
       "matches": ["*://*.cinobo.com/*"],
-      "js": ["content-script.js"]
+      "js": ["conttent-scripts/handle-subs.js"]
     }
   ],
   "browser_action": {
