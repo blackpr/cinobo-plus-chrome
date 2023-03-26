@@ -1,5 +1,3 @@
-// import { snakeToCamel } from './utils/case.js';
-
 async function main() {
   const casingSrc = browser.runtime.getURL('content-scripts/utils/casing.js');
   const casing = await import(casingSrc);
@@ -14,6 +12,9 @@ async function main() {
 
   browser.runtime.onMessage.addListener((message) => {
     if (message.command === 'subs-event') {
+      const subsElement = subs.getSubsElement();
+      if (!subsElement) return;
+
       const methodName = casing.snakeToCamel(message.payload);
       subs[methodName]();
     }
