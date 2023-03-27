@@ -18,7 +18,7 @@ https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm.mov
 
 - [x] Change subtitles size
 - [x] Change subtitles position
-- [] Add shortcuts
+- [ ] Add shortcuts
 
 ### created with ❤️ by [@blackpr](https://twitter.com/blackpr)
 
