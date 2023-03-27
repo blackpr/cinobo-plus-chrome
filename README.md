@@ -8,8 +8,9 @@ Cinobo plus is a firefox extension that adds missing features to cinobo.com play
 
 ![screenshot](./screenshots/subs-screenshot.png)
 
-https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm
-https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm.mov
+## see it in action
+[https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm
+https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm.mov](https://user-images.githubusercontent.com/30457/227872321-98c0115d-0430-4675-b9fb-fecfed8172af.mov)
 
 ## Features
 
