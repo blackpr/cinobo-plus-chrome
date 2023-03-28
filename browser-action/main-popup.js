@@ -2,7 +2,6 @@ import { SUBS_BUTTON_NAMES } from './constants.js';
 import { reportExecuteScriptError, reportError } from './report-error.js';
 
 function listenForClicks() {
-  console.log('todo listenForClicks');
   document.addEventListener('click', (e) => {
     if (e.target.tagName !== 'BUTTON' || !e.target.closest('#panel')) {
       return;

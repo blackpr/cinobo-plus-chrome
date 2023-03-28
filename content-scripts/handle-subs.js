@@ -10,6 +10,7 @@ async function main() {
   }
   window.hasRun = true;
 
+  // listen for messages from popup
   browser.runtime.onMessage.addListener((message) => {
     if (message.command === 'subs-event') {
       const subsElement = subs.getSubsElement();

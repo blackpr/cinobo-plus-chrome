@@ -2,7 +2,7 @@
   "type": "module",
   "name": "cinobo-plus",
   "description": "Add missing cinobo features.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "content-script.js",
   "scripts": {
     "dev": "web-ext run",
