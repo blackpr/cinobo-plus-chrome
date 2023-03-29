@@ -4,7 +4,7 @@ Cinobo plus is a firefox extension that adds missing features to cinobo.com play
 
 ## Install
 
-- [Click here to install the extension](https://addons.mozilla.org/firefox/downloads/file/4089516/8b8266835b82405ba474-0.0.1.xpi)
+- ### [Click here to install the extension](https://addons.mozilla.org/en-US/firefox/addon/cinobo-plus/)
 - You can also download the extension [from the releases](https://github.com/blackpr/cinobo-plus/releases)
 
 ![screenshot](./screenshots/subs-screenshot.png)
