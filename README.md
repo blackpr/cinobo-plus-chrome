@@ -29,4 +29,4 @@ https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm.mov
 
 ### created with ❤️ by [@blackpr](https://twitter.com/blackpr)
 
-### if you like it buy me a [cinobo gift card](https://cinobo.com/gift-card)
+### if you like it buy me a [cinobo gift card](https://cinobo.com/gift-card) ή καμιά μπύρα ξέρω γω
