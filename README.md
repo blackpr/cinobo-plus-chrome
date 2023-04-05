@@ -5,6 +5,7 @@ Cinobo plus is a chrome extension that adds missing features to cinobo.com playe
 ## Install
 
 - ### TODO: [Click here to install the extension](#todo)
+- You can also download the extension [from the releases](https://github.com/blackpr/cinobo-plus-chrome/releases)
 
 ![screenshot](./screenshots/subs-screenshot.jpg)
 
