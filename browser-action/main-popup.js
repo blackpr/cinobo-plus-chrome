@@ -1,5 +1,6 @@
 import { SUBS_BUTTON_NAMES } from './constants.js';
 import { reportExecuteScriptError, reportError } from './report-error.js';
+import { getTab } from './utils/tabs.js';
 
 function listenForClicks() {
   document.addEventListener('click', (e) => {
@@ -13,14 +14,13 @@ function listenForClicks() {
     if (!SUBS_BUTTON_NAMES.includes(name)) return;
 
     function sendSubsMessage(tabs, messageType) {
-      browser.tabs.sendMessage(tabs[0].id, {
+      chrome.tabs.sendMessage(tabs[0].id, {
         command: 'subs-event',
         payload: messageType,
       });
     }
 
-    browser.tabs
-      .query({ active: true, currentWindow: true })
+    getTab()
       .then((tabs) => sendSubsMessage(tabs, name))
       .catch(reportError);
   });
@@ -29,7 +29,12 @@ function listenForClicks() {
 // When the popup loads, inject a content script into the active tab,
 // and add a click handler.
 // If we couldn't inject the script, handle the error.
-browser.tabs
-  .executeScript({ file: '/content-scripts/handle-subs.js' })
+const [tab] = await getTab().catch(reportError);
+
+chrome.scripting
+  .executeScript({
+    files: ['/content-scripts/handle-subs.js'],
+    target: { tabId: tab.id },
+  })
   .then(listenForClicks)
   .catch(reportExecuteScriptError);

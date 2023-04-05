@@ -1,18 +1,15 @@
 # Cinobo+
 
-Cinobo plus is a firefox extension that adds missing features to cinobo.com player
+Cinobo plus is a chrome extension that adds missing features to cinobo.com player
 
 ## Install
 
-- ### [Click here to install the extension](https://addons.mozilla.org/en-US/firefox/addon/cinobo-plus/)
-- You can also download the extension [from the releases](https://github.com/blackpr/cinobo-plus/releases)
+- ### TODO: [Click here to install the extension](#todo)
+- You can also download the extension [from the releases](https://github.com/blackpr/cinobo-plus-chrome/releases)
 
-![screenshot](./screenshots/subs-screenshot.png)
+![screenshot](./screenshots/subs-screenshot.jpg)
 
-## see it in action
-
-[https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm
-https://github.com/blackpr/cinobo-plus/blob/main/screenshots/screencast.webm.mov](https://user-images.githubusercontent.com/30457/227872321-98c0115d-0430-4675-b9fb-fecfed8172af.mov)
+## TODO: see it in action
 
 ## Shortcuts
 
